@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Movie_Booking.Models.Movie>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="tersts" class="text-center">
+    <h1 class="display-4">Movies</h1>
+
+    <table id="movies" class="table">
+        <thead>
+            <tr>
+                <td width="10%">Title</td>
+                <td width="10%">Genre</td>
+                <td width="60%">Description</td>
+                <td width="5%">NumSeats</td>
+                <td width="5%">Bestil</td>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+<script src="js/js.js" asp-append-version="true"></script>
+</div>
+
